@@ -1,0 +1,50 @@
+@font-face {
+  font-family: Alegreya Sans;
+  src: url(../../fonts/google/AlegreyaSans/AlegreyaSans-Regular.ttf);
+}
+@font-face {
+  font-family: Ubuntu Condensed;
+  src: url(../../fonts/google/UbuntuCondensed/UbuntuCondensed-Regular.ttf);
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../../fonts/google/Montserrat/Montserrat-Light.ttf);
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: url(../../fonts/google/Montserrat/Montserrat-SemiBold.ttf);
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../../fonts/google/Montserrat/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  src: url(../../fonts/google/Montserrat/Montserrat-Black.ttf);
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../../fonts/google/OpenSans/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url(../../fonts/google/OpenSans/OpenSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../../fonts/google/OpenSans/OpenSans-Bold.ttf);
+}

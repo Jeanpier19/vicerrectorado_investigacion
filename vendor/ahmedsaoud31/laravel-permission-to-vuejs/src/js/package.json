@@ -1,0 +1,21 @@
+{
+  "name": "laravel-permission-to-vuejs",
+  "version": "3.0.8",
+  "description": "Laravel Permission Package To Use it in VueJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "exports": {
+    ".": "./index.js"
+  },
+  "keywords":[
+	"Laravel",
+	"Laravel-permission",
+	"Vuejs",
+	"Vuejs permission",
+	"Laravel permission to VueJs"
+  ],
+  "author": "ahmedsaoud31@gmail.com",
+  "license": "MIT"
+}

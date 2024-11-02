@@ -1,0 +1,13 @@
+{
+    "/js/admin/app.js": "/js/admin/app.js",
+    "/css/admin/app.css": "/css/admin/app.css",
+    "/css/admin/toastr.css": "/css/admin/toastr.css",
+    "/js/admin/manifest.js": "/js/admin/manifest.js",
+    "/js/admin/vendor.js": "/js/admin/vendor.js",
+    "/css/admin/main.css": "/css/admin/main.css",
+    "/js/admin/main.js": "/js/admin/main.js",
+    "/css/web/app.css": "/css/web/app.css",
+    "/css/web/main.css": "/css/web/main.css",
+    "/js/web/app.js": "/js/web/app.js",
+    "/js/web/main.js": "/js/web/main.js"
+}

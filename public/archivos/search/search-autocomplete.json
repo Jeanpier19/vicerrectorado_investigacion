@@ -1,0 +1,8 @@
+[ 
+  {"name": "Inicio", "type": "página", "badge": "success", "link": "/"}, 
+  {"name": "Guias", "type": "página", "badge": "success", "link": "/guias"}, 
+  {"name": "Noticias", "type": "página", "badge": "success", "link": "/noticias"},
+  {"name": "Unidades", "type": "página", "badge": "success", "link": "/unidades"},
+  {"name": "Normativa", "type": "página", "badge": "success", "link": "/normativa"},
+  {"name": "Ecosistema Informatico", "type": "página", "badge": "success", "link": "https://www.lucidchart.com/documents/embeddedchart/d1dd287f-81db-4953-965c-f98557dd0fa1"}
+]
