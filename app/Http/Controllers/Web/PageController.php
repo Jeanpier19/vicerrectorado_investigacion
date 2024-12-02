@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Web;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use App\Http\Requests\SolicitudDocenteStoreRequest;
 use App\Descripcion;
 use App\TipoPublicacion;
@@ -28,6 +29,7 @@ use Mail;
 
 class PageController extends Controller
 {
+    // Before
     public function index() {
         // header
         $descripcion = Descripcion::latest('updated_at')
@@ -558,5 +560,14 @@ class PageController extends Controller
             ->get();
         //
         return view('web.servicios-tecnologicos', compact('descripcion', 'tipos_publicacion'));
+    }
+
+    // After
+    public function movilidadP() {
+        return view('web.movilidadPrincipal');
+    }
+
+    public function movilidadE() {
+        return view('web.movilidadExplorer');
     }
 }

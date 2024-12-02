@@ -10,7 +10,7 @@ class Institucion extends Model
 	use SoftDeletes;
 
 	protected $fillable = [
-        'tipo_institucion_id', 'user_id', 'nombre', 'slug', 'main', 'active',
+        'tipo_institucion_id', 'user_id', 'nombre', 'slug', 'main', 'active', 'logos', 'enlace',
     ];
     public function tipo_institucion() {
         return $this->belongsTo('App\TipoInstitucion');

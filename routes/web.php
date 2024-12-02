@@ -2,6 +2,20 @@
 
 use Illuminate\Support\Facades\Route;
 
+// After
+
+Route::get('/cooperacion/movilidadP','Web\PageController@movilidadP')->name('web.movilidadP');
+Route::get('/axios/vue/cooperacion/movilidadPrincipal/get-graphic-items', 'Web\VueController@movilidad_get_graphic_items');
+Route::get('/axios/vue/cooperacion/movilidadPrincipal/facultad_get_item','Web\VueController@facultad_get_item');
+Route::get('/axios/vue/cooperacion/movilidadPrincipal/universidades_get_items','Web\VueController@universidades_get_items');
+Route::get('/axios/vue/cooperacion/movilidadPrincipal/paises_get_items','Web\VueController@paises_get_items');
+
+Route::get('/cooperacion/movilidadE','Web\PageController@movilidadE')->name('web.movilidadE');
+Route::get('/axios/vue/cooperacion/movilidadExplorer/instituciones_get_items','Web\VueController@instituciones_get_items');
+
+
+// Before
+
 Route::get('/', 'Web\PageController@index')->name('web.index');
 Route::get('/inicio', 'Web\PageController@index');
 Route::get('/nosotros/mision-vision', 'Web\PageController@mision_vision')->name('web.mision-vision');
