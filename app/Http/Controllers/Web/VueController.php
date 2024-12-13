@@ -35,6 +35,8 @@ class VueController extends Controller
 
         $instituciones = DB::table('institucions')
             ->select('nombre', 'enlace', 'logos')
+            ->whereNull('deleted_at')
+            ->latest('updated_at')
             ->paginate($perPage);
 
         return response()->json([
